@@ -14,8 +14,8 @@ namespace domain.Service
 {
     public class BaseService<TEntity> :IBaseService<TEntity> where TEntity : EntityBase
 	{
-		private readonly CustomerDBContext ctx;
-        private DbSet<TEntity> Repository { get { return ctx.Set<TEntity>(); } }
+		protected readonly CustomerDBContext ctx;
+        public DbSet<TEntity> Repository { get { return ctx.Set<TEntity>(); } }
         public BaseService(CustomerDBContext ctx)
         {
             this.ctx = ctx;

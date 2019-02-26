@@ -18,7 +18,11 @@ namespace Web
             _testService = testService;
         }
 
-		public List<TestDTO> GetAll()
+        public TestController()
+        {
+        }
+
+        public List<TestDTO> GetAll()
 		{
 			return _testService.GetList<TestDTO>();
 		}

@@ -19,5 +19,9 @@ namespace domain
 
         }
 		public DbSet<Test> Tests { get; set; }
+        public DbSet<MeetingAll> MeetingInformations { get; set; }
+        public DbSet<SalesOrgChart> SRs { get; set; }
+        public DbSet<MeetingHcps> MeetingPersons { get; set; }
+        public DbSet<Dctr> Doctors { get; set; }
     }
 }

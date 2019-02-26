@@ -33,7 +33,7 @@
   <ItemGroup>
     <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\innovision\SolutionFramework\Autofac.dll</HintPath>
+      <HintPath>..\packages\Autofac.4.6.1\lib\net45\Autofac.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DctrController.cs" />
+    <Compile Include="MeetingAllController.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="TestController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

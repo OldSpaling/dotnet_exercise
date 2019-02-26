@@ -57,15 +57,28 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="DBContext.cs" />
+    <Compile Include="DTO\DctrDTO.cs" />
     <Compile Include="DTO\IDTO.cs" />
+    <Compile Include="DTO\MeetingAllDTO.cs" />
+    <Compile Include="DTO\MeetingHcpsDTO.cs" />
     <Compile Include="DTO\TestDTO.cs" />
+    <Compile Include="Entity\Dctr.cs" />
     <Compile Include="Entity\EntityBase.cs" />
+    <Compile Include="Entity\MeetingAll.cs" />
+    <Compile Include="Entity\MeetingHcps.cs" />
+    <Compile Include="Entity\RltnTrtryDctr .cs" />
+    <Compile Include="Entity\SalesOrgChart.cs" />
     <Compile Include="Entity\Test.cs" />
     <Compile Include="Interface\IBaseService.cs" />
+    <Compile Include="Interface\IDctrService.cs" />
     <Compile Include="Interface\IDependence.cs" />
+    <Compile Include="Interface\IMeetingAllService.cs" />
+    <Compile Include="Interface\IMeetingHcpsService.cs" />
     <Compile Include="Interface\ITestService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\BaseService.cs" />
+    <Compile Include="Service\DctrService.cs" />
+    <Compile Include="Service\MeetingAllService.cs" />
     <Compile Include="Service\TestService.cs" />
     <Compile Include="StartUp.cs" />
   </ItemGroup>
